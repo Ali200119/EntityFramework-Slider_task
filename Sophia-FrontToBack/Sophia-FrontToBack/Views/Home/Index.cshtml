@@ -1,0 +1,884 @@
+﻿@model List<Slider>
+
+<main>
+    <section id="main-slider">
+        @foreach (var item in Model)
+        {
+            <div class="slide">
+                <div class="content">
+                    <h1>@item.Title</h1>
+                    <h2>@item.Description</h2>
+                    <button>SHOP NOW</button>
+                </div>
+                <img src="~/assets/images/@item.Image">
+            </div>
+        }
+    </section>
+
+    <section id="advantages">
+        <div class="container">
+            <div class="items">
+                <div class="item">
+                    <i class="fa-solid fa-gift"></i>
+
+                    <div class="text">
+                        <h4>BONUS PLUS</h4>
+                        <h5>Get a bonus plus for buying more that three products</h5>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <i class="fa-solid fa-truck"></i>
+
+                    <div class="text">
+                        <h4>FREE SHIPPING</h4>
+                        <h5>Free shipping on all orders over $99</h5>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <i class="fa-solid fa-dollar-sign"></i>
+
+                    <div class="text">
+                        <h4>MONEY BACK GUARANTEE</h4>
+                        <h5>100% money back guarantee</h5>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+
+                    <div class="text">
+                        <h4>ONLINE SUPPORT 24/7</h4>
+                        <h5>Call us: 02 3555 65454 55</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <div class="tab-menu">
+                <button class="active" data-id="featured">FEATURED PRODUCTS</button>
+                <button data-id="latest">LATEST PRODUCTS</button>
+                <button data-id="on-sale">ON SALE PRODUCTS</button>
+            </div>
+
+            <div data-id="featured" class="items">
+                <div class="item" data-id="1">
+                    <a href="./product-details.html"><img src="~/assets/images/Headphone1.png" alt="Headphone"></a>
+                    <h5>Headphones</h5>
+                    <h4>ONTEC E Headset</h4>
+                    <div class="rating-price">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <div class="price">
+                            <span>$</span>
+                            <span>175.00</span>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                    <ul class="options">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-eye"></i></li>
+                        <li><i class="fa-solid fa-rotate"></i></li>
+                    </ul>
+                </div>
+
+                <div class="item" data-id="2">
+                    <a href="./product-details.html"><img src="~/assets/images/Headphone2.png" alt="Headphone"></a>
+                    <h5>Headphones</h5>
+                    <h4>Solo Headset</h4>
+                    <div class="rating-price">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <div class="price">
+                            <span>$</span>
+                            <span>235.00</span>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                    <ul class="options">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-eye"></i></li>
+                        <li><i class="fa-solid fa-rotate"></i></li>
+                    </ul>
+                </div>
+
+                <div class="item" data-id="3">
+                    <a href="./product-details.html"><img src="~/assets/images/Headphone3.png" alt="Headphone"></a>
+                    <h5>Headphones</h5>
+                    <h4>Ultra White Wireless</h4>
+                    <div class="rating-price">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <div class="price">
+                            <span>$</span>
+                            <span>350.00</span>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                    <ul class="options">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-eye"></i></li>
+                        <li><i class="fa-solid fa-rotate"></i></li>
+                    </ul>
+                </div>
+
+                <div class="item" data-id="4">
+                    <a href="./product-details.html"><img src="~/assets/images/Headphone4.png" alt="Headphone"></a>
+                    <h5>Headphones</h5>
+                    <h4>Wireless Mondo</h4>
+                    <div class="rating-price">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <div class="price">
+                            <span>$</span>
+                            <span>266.00</span>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                    <ul class="options">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-eye"></i></li>
+                        <li><i class="fa-solid fa-rotate"></i></li>
+                    </ul>
+                </div>
+
+                <div class="item" data-id="5">
+                    <a href="./product-details.html"><img src="~/assets/images/Headphone5.png" alt="Headphone"></a>
+                    <h5>Headphones</h5>
+                    <h4>Headset Perro</h4>
+                    <div class="rating-price">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <div class="price">
+                            <span>$</span>
+                            <span>88.00</span>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                    <ul class="options">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-eye"></i></li>
+                        <li><i class="fa-solid fa-rotate"></i></li>
+                    </ul>
+                </div>
+
+                <div class="item" data-id="6">
+                    <a href="./product-details.html"><img src="~/assets/images/Laptop1.png" alt="Laptop"></a>
+                    <h5>Laptops</h5>
+                    <h4>Ellite Pro Book 15'6 7500U</h4>
+                    <div class="rating-price">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <div class="price">
+                            <span>$</span>
+                            <span>850.00</span>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                    <ul class="options">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-eye"></i></li>
+                        <li><i class="fa-solid fa-rotate"></i></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div data-id="latest" class="items">
+                <div class="item" data-id="7">
+                    <a href="./product-details.html"><img src="~/assets/images/Laptop2.png" alt="Laptop"></a>
+                    <h5>Laptops</h5>
+                    <h4>Tablet Red 8500U 2TB</h4>
+                    <div class="rating-price">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <div class="price">
+                            <span>$</span>
+                            <span>100.00</span>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                    <ul class="options">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-eye"></i></li>
+                        <li><i class="fa-solid fa-rotate"></i></li>
+                    </ul>
+                </div>
+
+                <div class="item" data-id="2">
+                    <a href="./product-details.html"><img src="~/assets/images/Headphone2.png" alt="Headphone"></a>
+                    <h5>Headphones</h5>
+                    <h4>Solo Headset</h4>
+                    <div class="rating-price">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <div class="price">
+                            <span>$</span>
+                            <span>235.00</span>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                    <ul class="options">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-eye"></i></li>
+                        <li><i class="fa-solid fa-rotate"></i></li>
+                    </ul>
+                </div>
+
+                <div class="item" data-id="1">
+                    <a href="./product-details.html"><img src="~/assets/images/Headphone1.png" alt="Headphone"></a>
+                    <h5>Headphones</h5>
+                    <h4>ONTEC E Headset</h4>
+                    <div class="rating-price">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <div class="price">
+                            <span>$</span>
+                            <span>175.00</span>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                    <ul class="options">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-eye"></i></li>
+                        <li><i class="fa-solid fa-rotate"></i></li>
+                    </ul>
+                </div>
+
+                <div class="item" data-id="6">
+                    <a href="./product-details.html"><img src="~/assets/images/Laptop1.png" alt="Laptop"></a>
+                    <h5>Laptops</h5>
+                    <h4>Ellite Pro Book 15'6 7500U</h4>
+                    <div class="rating-price">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <div class="price">
+                            <span>$</span>
+                            <span>850.00</span>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                    <ul class="options">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-eye"></i></li>
+                        <li><i class="fa-solid fa-rotate"></i></li>
+                    </ul>
+                </div>
+
+                <div class="item" data-id="4">
+                    <a href="./product-details.html"><img src="~/assets/images/Headphone4.png" alt="Headphone"></a>
+                    <h5>Headphones</h5>
+                    <h4>Wireless Mondo</h4>
+                    <div class="rating-price">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <div class="price">
+                            <span>$</span>
+                            <span>266.00</span>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                    <ul class="options">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-eye"></i></li>
+                        <li><i class="fa-solid fa-rotate"></i></li>
+                    </ul>
+                </div>
+
+                <div class="item" data-id="5">
+                    <a href="./product-details.html"><img src="~/assets/images/Headphone5.png" alt="Headphone"></a>
+                    <h5>Headphones</h5>
+                    <h4>Headset Perro</h4>
+                    <div class="rating-price">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <div class="price">
+                            <span>$</span>
+                            <span>88.00</span>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                    <ul class="options">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-eye"></i></li>
+                        <li><i class="fa-solid fa-rotate"></i></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div data-id="on-sale" class="items">
+                <div class="item" data-id="8">
+                    <a href="./product-details.html"><img src="~/assets/images/Smartphone.png" alt="Smartphone"></a>
+                    <h5>Smartphones</h5>
+                    <h4>One Plus</h4>
+                    <div class="rating-price">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <div class="price">
+                            <span>$</span>
+                            <span>399.00</span>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                    <ul class="options">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-eye"></i></li>
+                        <li><i class="fa-solid fa-rotate"></i></li>
+                    </ul>
+                </div>
+
+                <div class="item" data-id="3">
+                    <a href="./product-details.html"><img src="~/assets/images/Headphone3.png" alt="Headphone"></a>
+                    <h5>Headphones</h5>
+                    <h4>Ultra White Wireless</h4>
+                    <div class="rating-price">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <div class="price">
+                            <span>$</span>
+                            <span>350.00</span>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                    <ul class="options">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-eye"></i></li>
+                        <li><i class="fa-solid fa-rotate"></i></li>
+                    </ul>
+                </div>
+
+                <div class="item" data-id="7">
+                    <a href="./product-details.html"><img src="~/assets/images/Laptop2.png" alt="Laptop"></a>
+                    <h5>Laptops</h5>
+                    <h4>Tablet Red 8500U 2TB</h4>
+                    <div class="rating-price">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <div class="price">
+                            <span>$</span>
+                            <span>100.00</span>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                    <ul class="options">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-eye"></i></li>
+                        <li><i class="fa-solid fa-rotate"></i></li>
+                    </ul>
+                </div>
+
+                <div class="item" data-id="5">
+                    <a href="./product-details.html"><img src="~/assets/images/Headphone5.png" alt="Headphone"></a>
+                    <h5>Headphones</h5>
+                    <h4>Headset Perro</h4>
+                    <div class="rating-price">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <div class="price">
+                            <span>$</span>
+                            <span>88.00</span>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                    <ul class="options">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-eye"></i></li>
+                        <li><i class="fa-solid fa-rotate"></i></li>
+                    </ul>
+                </div>
+
+                <div class="item" data-id="2">
+                    <a href="./product-details.html"><img src="~/assets/images/Headphone2.png" alt="Headphone"></a>
+                    <h5>Headphones</h5>
+                    <h4>Solo Headset</h4>
+                    <div class="rating-price">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <div class="price">
+                            <span>$</span>
+                            <span>235.00</span>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                    <ul class="options">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-eye"></i></li>
+                        <li><i class="fa-solid fa-rotate"></i></li>
+                    </ul>
+                </div>
+
+                <div class="item" data-id="1">
+                    <a href="./product-details.html"><img src="~/assets/images/Headphone1.png" alt="Headphone"></a>
+                    <h5>Headphones</h5>
+                    <h4>ONTEC E Headset</h4>
+                    <div class="rating-price">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <div class="price">
+                            <span>$</span>
+                            <span>175.00</span>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                    <ul class="options">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-eye"></i></li>
+                        <li><i class="fa-solid fa-rotate"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert">
+            <h1></h1>
+        </div>
+
+        <div class="modal">
+            <div class="modal-content">
+                <div class="img-box">
+                    <img src="">
+                </div>
+
+                <div class="details">
+                    <h1></h1>
+
+                    <div class="discount">
+                        <del>$70.00</del>
+                        <span>50% Off</span>
+                    </div>
+
+                    <span class="price"></span>
+
+                    <div class="text">
+                        <h4>Product details</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda illum debitis numquam
+                            at voluptatum cupiditate. Accusamus minus consequatur autem veniam expedita ipsam, at
+                            quae molestias voluptas voluptate quod delectus ducimus fuga, alias itaque voluptatibus
+                            earum nam cupiditate nulla doloribus amet.
+                        </p>
+                    </div>
+
+                    <div class="avalibility">
+                        <span>Avalibility:</span>
+                        <span>In Stock</span>
+                    </div>
+
+                    <h5>Quantity</h5>
+
+                    <div class="quantity-options">
+                        <div class="quantity">
+                            <i class="fa-solid fa-minus"></i>
+                            <input type="text">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+
+                        <div class="options">
+                            <a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href=""><i class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </div>
+
+                    <i class="fa-solid fa-xmark close"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="suggestions">
+        <div class="container">
+            <div class="left">
+                <h3>NEW LAPTOPS</h3>
+                <p>Sale up to 30% off all products in the new collection.</p>
+                <a href="">Shop Now</a>
+                <img src="~/assets/images/Laptop2.png" alt="Laptop">
+            </div>
+
+            <div class="right">
+                <div class="up">
+                    <div class="tablets-smartphones">
+                        <h3>TABLETS, SMARTPHONES AND MORE</h3>
+                        <p>Sale up to 30%.</p>
+                        <a href="">Shop Now</a>
+                    </div>
+
+                    <div class="cameras">
+                        <h3>NEW CAMERAS COLLECTION</h3>
+                        <p>Sale up to 30%.</p>
+                        <a href="">Shop Now</a>
+                    </div>
+                </div>
+
+                <div class="down">
+                    <div class="content">
+                        <h1>CACH BIG OFFERS ON CAMERAS</h1>
+                        <p>Sale up to 30%.</p>
+                        <button>$66.99</button>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="~/assets/images/Mobiles.png" alt="Mobiles">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recommended-products">
+        <div class="container">
+            <div class="items">
+                <h2>Featured Products</h2>
+
+                <div class="line">
+                    <hr>
+                    <hr>
+                </div>
+
+                <div class="item">
+                    <a href="" class="img-box">
+                        <img src="~/assets/images/Headphone1.png" alt="Headphone">
+                    </a>
+
+                    <div class="content">
+                        <a href="">ONTEC E Headset</a>
+
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <h4>175.00</h4>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="" class="img-box">
+                        <img src="~/assets/images/Headphone2.png" alt="Headphone">
+                    </a>
+
+                    <div class="content">
+                        <a href="">Solo Headset</a>
+
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <h4>235.00</h4>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="" class="img-box">
+                        <img src="~/assets/images/Headphone3.png" alt="Headphone">
+                    </a>
+
+                    <div class="content">
+                        <a href="">Ultra White Wireless</a>
+
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <h4>350.00</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="items">
+                <h2>Top Selling Products</h2>
+
+                <div class="line">
+                    <hr>
+                    <hr>
+                </div>
+
+                <div class="item">
+                    <a href="" class="img-box">
+                        <img src="~/assets/images/Laptop2.png" alt="Laptop">
+                    </a>
+
+                    <div class="content">
+                        <a href="">Tablet Red 8500U 2TB</a>
+
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <h4>100.00</h4>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="" class="img-box">
+                        <img src="~/assets/images/Laptop1.png" alt="Laptop">
+                    </a>
+
+                    <div class="content">
+                        <a href="">Ellite Pro Book 15'6 7500U</a>
+
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <h4>850.00</h4>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="" class="img-box">
+                        <img src="~/assets/images/Laptop3.png" alt="Laptop">
+                    </a>
+
+                    <div class="content">
+                        <a href="">Tablet VX3000 Extra Light</a>
+
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <h4>850.00</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="items">
+                <h2>Hot Offer</h2>
+
+                <div class="line">
+                    <hr>
+                    <hr>
+                </div>
+
+                <div class="item">
+                    <a href="" class="img-box">
+                        <img src="~/assets/images/Laptop4.png" alt="Laptop">
+                    </a>
+
+                    <div class="content">
+                        <a href="">ONTEC E Headset</a>
+
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <h4>940.00</h4>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="" class="img-box">
+                        <img src="~/assets/images/Laptop5.png" alt="Laptop">
+                    </a>
+
+                    <div class="content">
+                        <a href="">Solo Headset</a>
+
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <h4>760.00</h4>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="" class="img-box">
+                        <img src="~/assets/images/Laptop6.png" alt="Laptop">
+                    </a>
+
+                    <div class="content">
+                        <a href="">Ultra White Wireless</a>
+
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+
+                        <h4>1,200.00</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

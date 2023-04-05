@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="~/assets/images/Icon.ico">
+    <link rel="stylesheet" href="~/assets/css/slick.css">
+    <link rel="stylesheet" href="~/assets/css/home/home.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <div class="up">
+            <div class="container">
+                <div class="currency-language">
+                    <div class="currency">
+                        <div class="flex">
+                            <h5>USD</h5>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+
+                        <div class="drop-down">
+                            <div class="usd">
+                                <h6>USD</h6>
+                            </div>
+
+                            <div class="eur">
+                                <h6>EUR</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="language">
+                        <div class="flex">
+                            <img src="~/assets/images/Britain.svg" alt="Britain">
+                            <h5>English</h5>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+
+                        <div class="drop-down">
+                            <div class="english">
+                                <img src="~/assets/images/Britain.svg" alt="Britain">
+                                <h5>English</h5>
+                            </div>
+
+                            <div class="german">
+                                <img src="~/assets/images/German.svg" alt="German">
+                                <h5>German</h5>
+                            </div>
+
+                            <div class="french">
+                                <img src="~/assets/images/French.svg" alt="French">
+                                <h5>French</h5>
+                            </div>
+
+                            <div class="russian">
+                                <img src="~/assets/images/Russian.svg" alt="Russian">
+                                <h5>Russian</h5>
+                            </div>
+
+                            <div class="turkey">
+                                <img src="~/assets/images/Turkey.svg" alt="Turkey">
+                                <h5>Turkey</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="account">
+                    <a href="./wishlist.html" class="wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                        <h5>WISHLIST</h5>
+                    </a>
+
+                    <a href="" class="compare">
+                        <i class="fa-solid fa-rotate"></i>
+                        <h5>COMPARE</h5>
+                    </a>
+
+                    <a href="./account.html" class="user">
+                        <i class="fa-regular fa-user"></i>
+                        <h5>My Account</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="down">
+            <div class="container">
+                <a href="#"><img src="~/assets/images/Logo White.png" alt="Sophia logo"></a>
+
+                <div class="search">
+                    <input placeholder="Type to search..." type="text">
+                    <button>SEARCH</button>
+                </div>
+
+                <div class="helpline">
+                    <i class="fa-solid fa-phone"></i>
+                    <div class="number">
+                        <h6>Helpline:</h6>
+                        <h3>02(981)336 111</h3>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="total">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>0</span>
+                        <span>$</span>
+                        <span>0</span>
+                    </div>
+
+                    <div class="preview-empty deactive">
+                        <div class="container">
+                            <div class="check">
+                                <a href="./cart.html">CHECK CARD</a>
+                                <h4>0 ITEM</h4>
+                            </div>
+                            <hr>
+                        </div>
+
+                        <h4>Please add product</h4>
+                    </div>
+
+                    <div class="preview deactive">
+                        <div class="container">
+                            <div class="check">
+                                <a href="./cart.html">CHECK CARD</a>
+                                <h4></h4>
+                            </div>
+
+                            <hr>
+
+                            <div class="items">
+                            </div>
+
+                            <hr>
+
+                            <div class="subtotal">
+                                <h4>Subtotal:</h4>
+                                <h4></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li>
+                        <a href="">PAGES <i class="fa-solid fa-caret-down"></i></a>
+                        <div class="drop-down">
+                            <ul>
+                                <li><a href="./about.html">About Us</a></li>
+                                <li><a href="">FAQ</a></li>
+                                <li><a href="./contact.html">Contact</a></li>
+                                <li><a href="./wishlist.html">Wishlist</a></li>
+                                <li><a href="">Testimonials <span>NEW</span></a></li>
+                                <li><a href="">Compare</a></li>
+                                <li><a href="./checkout.html">Checkout</a></li>
+                                <li><a href="./cart.html">Cart</a></li>
+                                <li><a href="./account.html">My Account</a></li>
+                                <li><a href="">404</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    @RenderBody()
+
+    <footer>
+        <div class="container">
+            <div class="company">
+                <a href="#" class="logo"><img src="~/assets/images/Logo Black.png" alt="Sophia Logo"></a>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada fringilla sem, at dictum lectus ultricies quis. Etiam eu bibendum orci. Aliquam erat volutpat.</p>
+
+                <a href="" class="more">MORE ABOUT US</a>
+            </div>
+
+            <div class="services">
+                <h3>Services</h3>
+
+                <ul>
+                    <li><a href="">Hotel Growth</a></li>
+                    <li><a href="">Hotel Loan</a></li>
+                    <li><a href="">Financial Planning</a></li>
+                    <li><a href="">Insurance Consulting</a></li>
+                    <li><a href="">Retirenment Planing</a></li>
+                    <li><a href="">Tax Planing</a></li>
+                </ul>
+            </div>
+
+            <div class="subscribe">
+                <h3>Subscribe Newsletter</h3>
+
+                <p>Get latest updates and offers.</p>
+
+                <input type="email" placeholder="Enter your email address">
+
+                <button>SUBSCRIBE US</button>
+            </div>
+
+            <div class="contact">
+                <h3>Contact Us</h3>
+
+                <p><i class="fa-solid fa-location-dot"></i> Apple St, New York, NY 10012, USA</p>
+
+                <p><i class="fa-solid fa-phone"></i> (018) 65 524 8503 / (125) 954 7854</p>
+
+                <div class="email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="">contact@lamarena.com</a>
+                </div>
+
+                <div class="social-media">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.google.com"><i class="fa-brands fa-google-plus-g"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/0e5ed62bbe.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+            integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="~/assets/js/slick.min.js"></script>
+    <script src="~/assets/js/home.js"></script>
+</body>
+
+</html>

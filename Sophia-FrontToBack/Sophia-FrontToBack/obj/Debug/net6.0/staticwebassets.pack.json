@@ -1,0 +1,209 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/.DS_Store",
+      "PackagePath": "staticwebassets/assets/.DS_Store"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/css/.DS_Store",
+      "PackagePath": "staticwebassets/assets/css/.DS_Store"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/css/home/home.css",
+      "PackagePath": "staticwebassets/assets/css/home/home.css"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/css/home/home.css.map",
+      "PackagePath": "staticwebassets/assets/css/home/home.css.map"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/css/home/home.scss",
+      "PackagePath": "staticwebassets/assets/css/home/home.scss"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/css/slick.css",
+      "PackagePath": "staticwebassets/assets/css/slick.css"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/.DS_Store",
+      "PackagePath": "staticwebassets/assets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Avatar1.png",
+      "PackagePath": "staticwebassets/assets/images/Avatar1.png"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Avatar2.png",
+      "PackagePath": "staticwebassets/assets/images/Avatar2.png"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Avatar3.png",
+      "PackagePath": "staticwebassets/assets/images/Avatar3.png"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Blog.jpg",
+      "PackagePath": "staticwebassets/assets/images/Blog.jpg"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Britain.svg",
+      "PackagePath": "staticwebassets/assets/images/Britain.svg"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Cameras.png",
+      "PackagePath": "staticwebassets/assets/images/Cameras.png"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Expert1.jpg",
+      "PackagePath": "staticwebassets/assets/images/Expert1.jpg"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Expert2.jpg",
+      "PackagePath": "staticwebassets/assets/images/Expert2.jpg"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Expert3.jpg",
+      "PackagePath": "staticwebassets/assets/images/Expert3.jpg"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Expert4.jpg",
+      "PackagePath": "staticwebassets/assets/images/Expert4.jpg"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/French.svg",
+      "PackagePath": "staticwebassets/assets/images/French.svg"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/German.svg",
+      "PackagePath": "staticwebassets/assets/images/German.svg"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Headphone1.png",
+      "PackagePath": "staticwebassets/assets/images/Headphone1.png"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Headphone2.png",
+      "PackagePath": "staticwebassets/assets/images/Headphone2.png"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Headphone3.png",
+      "PackagePath": "staticwebassets/assets/images/Headphone3.png"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Headphone4.png",
+      "PackagePath": "staticwebassets/assets/images/Headphone4.png"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Headphone5.png",
+      "PackagePath": "staticwebassets/assets/images/Headphone5.png"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Icon.ico",
+      "PackagePath": "staticwebassets/assets/images/Icon.ico"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Laptop1.png",
+      "PackagePath": "staticwebassets/assets/images/Laptop1.png"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Laptop2.png",
+      "PackagePath": "staticwebassets/assets/images/Laptop2.png"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Laptop3.png",
+      "PackagePath": "staticwebassets/assets/images/Laptop3.png"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Laptop4.png",
+      "PackagePath": "staticwebassets/assets/images/Laptop4.png"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Laptop5.png",
+      "PackagePath": "staticwebassets/assets/images/Laptop5.png"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Laptop6.png",
+      "PackagePath": "staticwebassets/assets/images/Laptop6.png"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Logo Black.png",
+      "PackagePath": "staticwebassets/assets/images/Logo Black.png"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Logo White.png",
+      "PackagePath": "staticwebassets/assets/images/Logo White.png"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Mobiles.png",
+      "PackagePath": "staticwebassets/assets/images/Mobiles.png"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Promotion.jpg",
+      "PackagePath": "staticwebassets/assets/images/Promotion.jpg"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Russian.svg",
+      "PackagePath": "staticwebassets/assets/images/Russian.svg"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Slide1.jpg",
+      "PackagePath": "staticwebassets/assets/images/Slide1.jpg"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Slide2.jpg",
+      "PackagePath": "staticwebassets/assets/images/Slide2.jpg"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Slide3.jpg",
+      "PackagePath": "staticwebassets/assets/images/Slide3.jpg"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Slide4.jpg",
+      "PackagePath": "staticwebassets/assets/images/Slide4.jpg"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Slide5.jpg",
+      "PackagePath": "staticwebassets/assets/images/Slide5.jpg"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Smartphone.png",
+      "PackagePath": "staticwebassets/assets/images/Smartphone.png"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Tablet.png",
+      "PackagePath": "staticwebassets/assets/images/Tablet.png"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/images/Turkey.svg",
+      "PackagePath": "staticwebassets/assets/images/Turkey.svg"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/js/home.js",
+      "PackagePath": "staticwebassets/assets/js/home.js"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/Sophia-FrontToBack/Sophia-FrontToBack/wwwroot/assets/js/slick.min.js",
+      "PackagePath": "staticwebassets/assets/js/slick.min.js"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.Sophia-FrontToBack.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.Sophia-FrontToBack.props",
+      "PackagePath": "build\\Sophia-FrontToBack.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.Sophia-FrontToBack.props",
+      "PackagePath": "buildMultiTargeting\\Sophia-FrontToBack.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.Sophia-FrontToBack.props",
+      "PackagePath": "buildTransitive\\Sophia-FrontToBack.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

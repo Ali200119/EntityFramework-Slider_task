@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{07F71984-4F1B-4588-992B-A387F3791DA6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sophia-FrontToBack/Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="Sophia-FrontToBack/Controllers/HomeController.cs" Line="20" Column="29" />
+      <File FileName="Sophia-FrontToBack/Models/Slider.cs" Line="10" Column="2" />
+      <File FileName="Sophia-FrontToBack/Data/AppDbContext.cs" Line="26" Column="2" />
+      <File FileName="Sophia-FrontToBack/Views/Home/Index.cshtml" Line="13" Column="56" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Sophia-FrontToBack" expanded="True">
+            <Node name="Sophia-FrontToBack" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Sophia-FrontToBack PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
