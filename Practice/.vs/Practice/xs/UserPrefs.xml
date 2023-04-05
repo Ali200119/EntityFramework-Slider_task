@@ -1,4 +1,39 @@
 ﻿<Properties StartupConfiguration="{7B6D77A0-CB8A-43A1-9CC9-9754AE89D18E}|Default">
-  <MonoDevelop.Ide.ItemProperties.Practice FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Practice/appsettings.json">
+    <Files>
+      <File FileName="Practice/Program.cs" Line="24" Column="22" />
+      <File FileName="Practice/Controllers/HomeController.cs" Line="30" Column="2" />
+      <File FileName="Practice/Views/Home/Index.cshtml" Line="18" Column="57" />
+      <File FileName="Practice/Data/AppDbContext.cs" Line="24" Column="55" />
+      <File FileName="Practice/Models/Slider.cs" Line="4" Column="33" />
+      <File FileName="Practice/Models/SliderInfo.cs" Line="4" Column="37" />
+      <File FileName="Practice/appsettings.json" Line="12" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Practice" expanded="True">
+            <Node name="Practice" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Practice PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

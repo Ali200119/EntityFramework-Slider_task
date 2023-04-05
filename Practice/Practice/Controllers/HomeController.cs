@@ -1,32 +1,30 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Practice.Data;
 using Practice.Models;
+using Practice.ViewModels;
 
 namespace Practice.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    private readonly AppDbContext _context;
+    public HomeController(AppDbContext context)
     {
-        _logger = logger;
+        _context = context;
     }
 
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
-        return View();
-    }
+        List<Slider> sliders = _context.Sliders.ToList();
+        SliderInfo sliderInfo = _context.SliderInfo.FirstOrDefault();
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
+        HomeVM homeVM = new HomeVM
+        {
+            Sliders = sliders,
+            SliderInfo = sliderInfo
+        };
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        return View(homeVM);
     }
 }
-
